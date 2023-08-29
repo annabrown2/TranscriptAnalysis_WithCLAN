@@ -1,7 +1,13 @@
 # Language_and_Transmission_of_Inequality
-This is the Repository for the Project investigating the role of language in the transmission of family background inequality. 
+This is the repository for the Project investigating the role of language in the transmission of family background inequality funded by the Nuffield Foundation. 
 
-All code and protocols for the analysis of naturalistic speech samples will be shared here. 
+All code and protocols for analysing naturalistic speech samples will be shared here. 
+
+## Converting existing transcripts for analysis in CLAN ##
+
+Within this folder are the protocols for converting existing transcripts so they follow CHAT guidelines and can be analysed by CLAN. 
+
+For more information about CLAN, go to: https://childes.talkbank.org/
 
 ## The Project Team 
 
