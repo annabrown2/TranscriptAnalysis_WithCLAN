@@ -5,7 +5,7 @@ All code and protocols for analysing naturalistic speech samples will be shared 
 
 ## Converting existing transcripts for analysis in CLAN ##
 
-Within this folder are the protocols for converting existing transcripts so they follow CHAT guidelines and can be analysed by CLAN. 
+Below are the protocols for converting existing transcripts to follow CHAT guidelines which can be analysed by CLAN. 
 
 For more information about CLAN, go to: https://childes.talkbank.org/
 
