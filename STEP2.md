@@ -54,6 +54,15 @@ DELIM +1 +t* *.cha
 `+t*` is the switch that make sure it runs on all dependent tiers
 `*.cha` means it will run on all CHAT files in your working directory 
 
+## Run the RETRACE command 
+The command makes sure that there any retrace or repetition is marked 
+```
+RETRACE +c +1 *.cha
+```
+`RETRACE` is the command 
+`+1` is the switch that means it will overwrite the existing file 
+`*.cha` means it will run on all CHAT files in your working directory 
+
 ## Check for remaining Errors 
 CLAN has a built-in check function. This can be run using the `CHECK` command in the commands window or manually checking each file. 
 I would recommend checking each file manually 
