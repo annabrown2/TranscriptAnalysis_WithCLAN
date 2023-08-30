@@ -61,7 +61,7 @@ I would recommend checking each file manually
 1. Open the CHAT file, and move cursor to the start of the file.
 2. Press esc+L and this will check the file for errors
 3. CLAN will navigate to the error and list the error below.
-4. Use the common errors guide to fix the error.
+4. fix the error using the [common errors guide](https://github.com/annabrown2/TranscriptAnalysis_WithCLAN/blob/main/Common_CLAN_Errors.md) to help you.
 5. Repeat the process until CLAN says ‘Success! No Errors Found!’ 
 
 
