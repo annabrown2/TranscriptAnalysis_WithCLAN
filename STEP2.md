@@ -23,9 +23,9 @@ It will break up any lines of speech that contain more than one sentence.
 ```
 FIXIT +1 *.cha
 ```
-`FIXIT` is the command. 
-`+1` is the switch that means it will overwrite the existing file. 
-`*.cha` means it will run on all CHAT files in your working directory. 
++ `FIXIT` is the command.
++ `+1` is the switch that means it will overwrite the existing file
++ `*.cha` means it will run on all CHAT files in your working directory. 
 
 #### In the event of an error 
 + Any errors will appear in the output window.
@@ -40,28 +40,28 @@ Only pronouns can begin with a capital letter.
 ```
 LOWCASE +1 *.cha
 ```
-`LOWCASE` is the command. 
-`+1` is the switch that means it will overwrite the existing file. 
-`*.cha` means it will run on all CHAT files in your working directory. 
++ `LOWCASE` is the command. 
++ `+1` is the switch that means it will overwrite the existing file. 
++ `*.cha` means it will run on all CHAT files in your working directory. 
 
 ## Run the DELIM command 
 The command makes sure that there is an utterance delimeter at the end of every utterance. 
 ```
 DELIM +1 +t* *.cha
 ```
-`DELIM` is the command. 
-`+1` is the switch that means it will overwrite the existing file. 
-`+t*` is the switch that make sure it runs on all dependent tiers.
-`*.cha` means it will run on all CHAT files in your working directory. 
++ `DELIM` is the command. 
++ `+1` is the switch that means it will overwrite the existing file. 
++ `+t*` is the switch that make sure it runs on all dependent tiers.
++ `*.cha` means it will run on all CHAT files in your working directory. 
 
 ## Run the RETRACE command 
 The command makes sure that any retrace or repetition is marked. 
 ```
 RETRACE +c +1 *.cha
 ```
-`RETRACE` is the command. 
-`+1` is the switch that means it will overwrite the existing file. 
-`*.cha` means it will run on all CHAT files in your working directory. 
++ `RETRACE` is the command. 
++ `+1` is the switch that means it will overwrite the existing file. 
++ `*.cha` means it will run on all CHAT files in your working directory. 
 
 ## Check for remaining Errors 
 CLAN has a built-in check function. This can be run using the `CHECK` command in the commands window or manually checking each file. 
