@@ -19,12 +19,12 @@ Below are the protocols for converting existing text file transcripts to follow 
 
 **[Step 1:](https://github.com/annabrown2/TranscriptAnalysis_WithCLAN/blob/main/STEP1.md)** A protocol for converting an existing transcript text file into a chat file that follows basic CHAT guidelines.  
 
-**[Step 2:](https://github.com/annabrown2/TranscriptAnalysis_WithCLAN/blob/main/STEP2.md)** A protocol for checking CHAT files for remaining errors 
+**[Step 2:](https://github.com/annabrown2/TranscriptAnalysis_WithCLAN/blob/main/STEP2.md)** A protocol for checking CHAT files for remaining errors. 
 
-**[Step 3:](https://github.com/annabrown2/TranscriptAnalysis_WithCLAN/blob/main/STEP3.md)** A protocol for executing the MOR command in CLAN
+**[Step 3:](https://github.com/annabrown2/TranscriptAnalysis_WithCLAN/blob/main/STEP3.md)** A protocol for executing the MOR command in CLAN.
 
 **Additional Material**
-+ This is [a list of common errors found](https://github.com/annabrown2/TranscriptAnalysis_WithCLAN/blob/main/Common_CLAN_Errors.md) when converting to CHAT files 
++ This is [a list of common errors found](https://github.com/annabrown2/TranscriptAnalysis_WithCLAN/blob/main/Common_CLAN_Errors.md) when converting to CHAT files. 
 
 ## The Project Team 
 
