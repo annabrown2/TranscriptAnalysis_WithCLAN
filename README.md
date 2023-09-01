@@ -1,5 +1,5 @@
 # Transcript Analysis with CLAN
-This repository contains all the code and protocols to enable you to generate transcripts that follow CHAT guidelines and can be analysed by CLAN 
+*This repository contains all the code and protocols to enable you to generate transcripts that follow CHAT guidelines and can be analysed by CLAN.*
 
 ## Why CLAN? 
 For more information about CLAN, go to: https://childes.talkbank.org/
