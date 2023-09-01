@@ -28,12 +28,12 @@ Below are the protocols for converting existing text file transcripts to follow 
 
 ## The Project Team 
 
-https://www.hungrymindlab.com/
-
 **Project Lead:** Sophie von Stumm
 
 **Research associate:** Anna Brown
 
 **Project Coordinator:** Emily Wood
+
+https://www.hungrymindlab.com/
 
 ![alt text](https://github.com/annabrown2/TranscriptAnalysis_WithCLAN/blob/e852354094318e51abc38e17aad57f26ca56ee4c/HML%20logo%20fill.png)
