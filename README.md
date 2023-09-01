@@ -17,7 +17,7 @@ It is recommended you consult the CLAN manuals for a deeper understanding of the
 Below are the protocols for converting existing text file transcripts to follow CHAT guidelines so that they can be analysed by CLAN.
 
 
-**[Step 1:](https://github.com/annabrown2/TranscriptAnalysis_WithCLAN/blob/main/STEP1.md)** A protocol for converting an existing transcript text file into a chat file that follow basic CHAT guidelines.  
+**[Step 1:](https://github.com/annabrown2/TranscriptAnalysis_WithCLAN/blob/main/STEP1.md)** A protocol for converting an existing transcript text file into a chat file that follows basic CHAT guidelines.  
 
 **[Step 2:](https://github.com/annabrown2/TranscriptAnalysis_WithCLAN/blob/main/STEP2.md)** A protocol for checking CHAT files for remaining errors 
 
