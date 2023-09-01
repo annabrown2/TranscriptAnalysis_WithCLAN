@@ -1,8 +1,11 @@
 # Step 3: Running the MOR Command 
-The MOR command is essential for morphosyntactical analysis and extracting many useful language markers. 
-It is recommended you read [CLAN manual:Part3](https://doi.org/10.21415/T5B97X) to fully understand how the morphosyntactical analysis works.   
+*This protocol outlines how to run the MOR Command for morphosyntactical analysis.*
 
-#### This protocol contains 
+#### The MOR Command
+The MOR command is essential for morphosyntactical analysis and extracting many useful language markers. 
+It is recommended you read [CLAN manual:Part3](https://doi.org/10.21415/T5B97X) to fully understand how the morphosyntactical analysis works.  
+
+#### This protocol contains: 
 1. How to identify all the words not recognised by CLAN.
 2. Causes of unrecognised entries.
 3. Using CHstring to fix multiple errors.
@@ -34,11 +37,11 @@ MOR +xb +t*MOT *.cha
   + Filler words should be transcribed as '&-' e.g. `&-uh`.
 + **Solution:**  Recode incomplete and non-words, but check the context and make sure it's not a dialectal form or anything else less common. 
  
-### Error: The word should have been transcribed with a special form marker, as in bobo@o or bo^bo@o for onomatopoeia.  
-+ It is impossible to list all possible onomatopoeic forms in the MOR lexicon.
-+ So the @o marker solves this problem by telling MOR how to treat the form.
+### Error: The word should have been transcribed with a special form marker.  
++ It is impossible to list all possible onomatopoeic (sound imitation) forms in the MOR lexicon.
++ The @o marker solves this problem by telling MOR how to treat the form.
 + This approach will be needed for other special forms, such as babbling '@b' or word play '@wp'.
-+ **Solution:** Change any onomatopoeia using '@o' marker, babbling with '@b' marker and wordplay with '@wp' marker
++ **Solution:** Change any onomatopoeia using the @o marker (e.g., `sploosh@o`), babbling with @b marker (e.g., `bubu@b`) and wordplay with @wp marker (e.g., `showy-offy@wp`).
 
 ### Error: The word was transcribed in “eye-dialect” to represent phonological reductions. 
 + E.g. ‘’cause,’ ‘gonna.’
@@ -82,7 +85,7 @@ CHSTRING +s"moo" "moo@o"
 1. Create a CHAT file and save it as 'changes.cut'
 2. Save the file in the 'lib' folder of your CLAN applications folder (e.g. on mac applications>Clanc>lib)
 3. Within the file, record the change in the format of "old string" "new string"
-  *e.g. To change the misspelling of 'preschool' to 'pre_school' it should be in Changes.cut as `"preschool" "pre_school"`
+4. e.g. To change the misspelling of 'preschool' to 'pre_school' it should be in Changes.cut as `"preschool" "pre_school"`
 5. Each new line in the changes.cut will be a different change
 6. Once the file is complete enter this code into the commands window
 ```
@@ -94,7 +97,7 @@ MOR contains an extensive dictionary but it won't have every word. If none of th
 1. Create a file called 0addmorewords.cut.
 2. Save the file in the /lex folder of the MOR grammar files on your computer.
 3. Within the file code each word under the following format `STEM {[scat WORD CLASS CODE]}`
-  *e.g. when adding the word ‘chocoholic’. It would be added into the file as… `Chocoholic {[scat n]}`
+4. e.g. when adding the word ‘chocoholic’. It would be added into the file as… `Chocoholic {[scat n]}`
 
 ## Once there are no unrecognised lexicon entries run MOR 
 For full information about how the MOR command works consult [CLAN manual:Part3](https://doi.org/10.21415/T5B97X)  
