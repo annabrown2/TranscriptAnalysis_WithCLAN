@@ -1,5 +1,5 @@
 # STEP 2: Checking CHAT files for Errors
-*This Protocol outlines how to check files for remaining errors and make sure all CHAT guidelines are followed.* 
+*This protocol outlines how to check files for remaining errors and make sure all CHAT guidelines are followed.* 
 
 ## How to use this protocol: 
 + Follow the steps in chronological order.  
