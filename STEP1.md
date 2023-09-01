@@ -3,13 +3,13 @@ This Protocol outlines how to convert the transcribed speech samples so that the
 
 ## How to use this protocol: 
 + Follow the steps in chronological order.  
-+ Anything written within quotation marks (e.g. “&=Laughs”) must be written exactly as it appears including correct capitalization.  
++ Anything written within quotation marks (e.g. “&=Laughs”) must be written exactly as it appears, including correct capitalization.  
 
 ## Setting up the Transcript 
 Watch a useful tutorial for this step here: https://talkbank.org/screencasts/template.mp4 
 
 1. Go to  ‘Clan > File > New…’ to open a blank CHAT file.
-2. Save the new CHAT file 
+2. Save the new CHAT file. 
 3. All Transcripts must begin with the following header tiers.
   
 ```
@@ -23,16 +23,16 @@ Watch a useful tutorial for this step here: https://talkbank.org/screencasts/tem
 @Transcriber:(YOUR NAME HERE)
 
 ```
-*In this example our transcripts were a mother being interviewed about her children, therefore we have used ID headers for Mother and Investigator, for all ID headers available in CLAN consult the manual.*
+*In this example our transcripts consisted of a mother being interviewed about her children, therefore we have used ID headers for Mother and Investigator. For all ID headers available in CLAN consult the manual.*
 
-4. Add the filename to the media tier (excluding file extension) 
+4. Add the filename to the media tier (excluding file extension). 
 5. Add your name to the transcriber header tier.
 6. Once you have entered this information, click on tiers on the top menu bar and then on update. The participants' codes should appear in the tier list.
 7. Underneath the transcriber header tier enter the existing transcript.
    
 *Note:* 
 + Don’t end header tiers with a punctuation mark. 
-+ Each colon on a header tier needs to be followed by a tab
++ Each colon on a header tier needs to be followed by a tab.
   
 ## Change participants code 
 + Speaker labels must follow the code as specified in the ID header tier.
@@ -50,7 +50,7 @@ Watch a useful tutorial for this step here: https://talkbank.org/screencasts/tem
 
 ## Recode any other markers 
 + Any other nonverbal or additional information included within transcripts must be recoded.
-+ Examples of how to recode some of these instances are listed below
++ Examples of how to recode some of these instances are listed below.
 
 #### If the marker is for speech that couldn’t be transcribed… 
 e.g. unclear, inaudible or an interruption.  
@@ -63,7 +63,7 @@ e.g. laughs, coughs, sighs.
 2. e.g. laughs becomes `&=laughs`
 
 #### If the marker is providing context to the transcript…
-e.g. information about what is happening during the speech 
+e.g. information about what is happening during the speech. 
 1. add “%act:(followed by a tab space)”
 2. The marking on an interruption would become `%act:	[Interruption 00:17:20-00:17:40]`
 
@@ -81,7 +81,7 @@ e.g. information about what is happening during the speech
 ## Add an end and save the transcript. 
 1. Once other steps have been completed add an end marker to the transcript.
 2. On the final line add `@End`
-3. Save the transcript 
+3. Save the transcript. 
 
 
 
