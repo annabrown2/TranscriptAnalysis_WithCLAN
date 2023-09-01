@@ -35,22 +35,26 @@ Watch a useful tutorial for this step here: https://talkbank.org/screencasts/tem
 + Each colon on a header tier needs to be followed by a tab.
   
 ## Change participants code 
-+ Speaker labels must follow the code as specified in the ID header tier.
+*Speaker labels must follow the code as specified in the ID header tier.*
 + e.g. for lines of mothers speech the line would begin with `*MOT:  `  
 + All lines of speech must begin with the same format. 
-+ CLAN also has strict guidelines about punctuation and spaces for participant codes. There can be no space after the colon, just a tab space. 
++ CLAN also has strict guidelines about punctuation and spaces for participant codes. There can be no space after the colon, just a tab space.
+
+## Recode identifiable information
+*To anonymise your transcripts, you can recode any identifiable information.*
++ Use code `www` followed by a marker `[% Identifiable Information]`
++ e.g. 'This is Family ID 1234' becomes 'This is Family ID www [% Family ID].'
 
 ## Recode pauses 
 *There may be long breaks in the transcript currently recorded e.g. [pause 00:03:45 - 00:03:50], these need to be removed from the transcript or recoded depending on length.* 
 #### If pause is on its own line in the transcript…
-1. Add “%act:[tab space]” followed by the pause timemark 
-    E.g. `%act:	[pause 00:03:45 - 00:03:50]`
++ Add “%act:[tab space]” followed by the pause timemark. 
+    e.g. `%act:	[pause 00:03:45 - 00:03:50]`
 #### If pause is within a speech line… 
-1. delete current pause tag and change to `(..)` for a long pause or `(.)` for a short pause
++ Delete current pause tag and change to `(..)` for a long pause or `(.)` for a short pause.
 
 ## Recode any other markers 
-+ Any other nonverbal or additional information included within transcripts must be recoded.
-+ Examples of how to recode some of these instances are listed below.
+*Any other nonverbal or additional information included within transcripts must be recoded. Examples of how to recode some of these instances are listed below.*
 
 #### If the marker is for speech that couldn’t be transcribed… 
 e.g. unclear, inaudible or an interruption.  
@@ -67,21 +71,25 @@ e.g. information about what is happening during the speech.
 1. add “%act:(followed by a tab space)”
 2. The marking on an interruption would become `%act:	[Interruption 00:17:20-00:17:40]`
 
-#### This is not an exhaustive list of all markers for more information consult CLAN manual part 1 
+#### This is not an exhaustive list of all markers. For more information, consult CLAN manual part 1. 
 
-## Make sure all the utterance delimeters correct
+## Make sure all the utterance delimeters are correct
 + CHAT guidelines means all utterances/lines of speech have to end with a full stop.
 + No other punctuation (except ? or !) can end a line of speech.
-+ These punctuation marks can also not occur within a line of speech only at the end.
++ These punctuation marks can also not occur within a line of speech, only at the end.
 
 #### If the line of speech was interuppted 
-1. If the line of speech was incomplete or interrupted mark with `+...`
-2. If the speech is then continued after the interupption mark the next line of speech `+,`
+1. If the line of speech was incomplete or interrupted, mark with `+...`
+2. If the speech is then continued after the interruption, mark the next line of speech `+,`
+  e.g.,
+    *MOT:  I can't remember exactly +...
+    *INV:  That's okay.
+    *MOT:  +, but it was around July.
 
 ## Add an end and save the transcript. 
-1. Once other steps have been completed add an end marker to the transcript.
-2. On the final line add `@End`
-3. Save the transcript. 
+*Once other steps have been completed, add an end marker to the transcript.*
+1. On the final line add `@End`
+2. Save the transcript. 
 
 
 
