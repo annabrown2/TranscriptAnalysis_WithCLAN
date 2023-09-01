@@ -36,4 +36,4 @@ https://www.hungrymindlab.com/
 
 **Project Coordinator:** Emily Wood
 
-
+![alt text](https://github.com/annabrown2/TranscriptAnalysis_WithCLAN/blob/c5a08a886ee43ab25323d2191b7ee7f8507c81df/Picture%201.png)
