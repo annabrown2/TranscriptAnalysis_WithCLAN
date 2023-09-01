@@ -1,5 +1,5 @@
 # Step 1: Convert existing transcript to a CHAT file 
-*This Protocol outlines how to convert the transcribed speech samples so that they follow CHAT transcription guidelines and can be analysed in CLAN.* 
+*This protocol outlines how to convert the transcribed speech samples so that they follow CHAT transcription guidelines and can be analysed in CLAN.* 
 
 ## How to use this protocol: 
 + Follow the steps in chronological order.  
