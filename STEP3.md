@@ -85,9 +85,9 @@ CHSTRING +s"moo" "moo@o"
 1. Create a CHAT file and save it as 'changes.cut'
 2. Save the file in the 'lib' folder of your CLAN applications folder (e.g. on mac applications>Clanc>lib)
 3. Within the file, record the change in the format of "old string" "new string"
-4. e.g. To change the misspelling of 'preschool' to 'pre_school' it should be in Changes.cut as `"preschool" "pre_school"`
-5. Each new line in the changes.cut will be a different change
-6. Once the file is complete enter this code into the commands window
+  + e.g., To change the misspelling of 'preschool' to 'pre_school' it should be in Changes.cut as `"preschool" "pre_school"`
+4. Each new line in the changes.cut will be a different change
+5. Once the file is complete enter this code into the commands window
 ```
 CHSTRING +c +1 *.cha
 ```
@@ -97,7 +97,7 @@ MOR contains an extensive dictionary but it won't have every word. If none of th
 1. Create a file called 0addmorewords.cut.
 2. Save the file in the /lex folder of the MOR grammar files on your computer.
 3. Within the file code each word under the following format `STEM {[scat WORD CLASS CODE]}`
-4. e.g. when adding the word ‘chocoholic’. It would be added into the file as… `Chocoholic {[scat n]}`
+  + e.g., when adding the word ‘chocoholic’. It would be added into the file as… `Chocoholic {[scat n]}`
 
 ## Once there are no unrecognised lexicon entries run MOR 
 For full information about how the MOR command works consult [CLAN manual:Part3](https://doi.org/10.21415/T5B97X)  
