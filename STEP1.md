@@ -43,12 +43,12 @@ Watch a useful tutorial for this step here: https://talkbank.org/screencasts/tem
 ## Recode identifiable information
 *To anonymise your transcripts, you can recode any identifiable information.*
 + Use code `www` followed by a marker `[% Identifiable Information]`
-+ e.g. 'This is Family ID 1234' becomes 'This is Family ID www [% Family ID].'
++ e.g. `This is Family ID 1234` becomes `This is Family ID www [% Family ID].`
 
 ## Recode pauses 
 *There may be long breaks in the transcript currently recorded e.g. [pause 00:03:45 - 00:03:50], these need to be removed from the transcript or recoded depending on length.* 
 #### If pause is on its own line in the transcript…
-+ Add “%act:[tab space]” followed by the pause timemark. 
++ Add `%act:[tab space]` followed by the pause timemark. 
     e.g. `%act:	[pause 00:03:45 - 00:03:50]`
 #### If pause is within a speech line… 
 + Delete current pause tag and change to `(..)` for a long pause or `(.)` for a short pause.
@@ -68,7 +68,7 @@ e.g. laughs, coughs, sighs.
 
 #### If the marker is providing context to the transcript…
 e.g. information about what is happening during the speech. 
-1. add “%act:(followed by a tab space)”
+1. add `%act:[tab space]` followed by the marker.
 2. The marking on an interruption would become `%act:	[Interruption 00:17:20-00:17:40]`
 
 #### This is not an exhaustive list of all markers. For more information, consult CLAN manual part 1. 
@@ -81,11 +81,11 @@ e.g. information about what is happening during the speech.
 #### If the line of speech was interuppted 
 1. If the line of speech was incomplete or interrupted, mark with `+...`
 2. If the speech is then continued after the interruption, mark the next line of speech `+,`
-  e.g.,
-    *MOT:  I can't remember exactly +...
-    *INV:  That's okay.
-    *MOT:  +, but it was around July.
-
+```
+*MOT:  I can't remember exactly +...
+*INV:  That's okay.
+*MOT:  +, but it was around July.
+```
 ## Add an end and save the transcript. 
 *Once other steps have been completed, add an end marker to the transcript.*
 1. On the final line add `@End`
