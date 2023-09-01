@@ -1,5 +1,5 @@
 # STEP 2: Checking CHAT files for Errors
-This Protocol outlines how to check files for remaining errors and make sure all CHAT guidelines are followed. 
+*This Protocol outlines how to check files for remaining errors and make sure all CHAT guidelines are followed.* 
 
 ## How to use this protocol: 
 + Follow the steps in chronological order.  
@@ -71,7 +71,7 @@ I would recommend checking each file manually.
 2. Press esc+L and this will check the file for errors.
 3. CLAN will navigate to the error and list the error below.
 4. fix the error using the [common errors guide](https://github.com/annabrown2/TranscriptAnalysis_WithCLAN/blob/main/Common_CLAN_Errors.md) to help you.
-5. Repeat the process until CLAN says ‘Success! No Errors Found!’ 
+5. Repeat the process until CLAN says `Success! No Errors Found!` 
 
 
 
